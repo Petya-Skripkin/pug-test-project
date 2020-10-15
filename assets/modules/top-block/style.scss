@@ -1,0 +1,53 @@
+.sitebar {
+  height: 780px;
+  background-image: url("../img/bg-1.svg");
+  background-repeat: no-repeat;
+
+  &__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+}
+
+.nums {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.conteiner {
+  width: 600px;
+  margin-top: 12%;
+  margin-left: 15%;
+  color: white;
+
+  &__paragraph {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    width: 360px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  &__date {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+}
+
+.content {
+  margin-top: 25px;
+  &__button {
+    padding: 10px 15px;
+    font-weight: 900;
+    &:first-child {
+      border: 1px solid $RipeLemon;
+      background-color: $RipeLemon;
+      margin-right: 15px;
+    }
+  }
+}

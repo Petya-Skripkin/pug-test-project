@@ -1,0 +1,41 @@
+.second-block {
+  height: 780px;
+  background-image: url("../img/bg-2.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  &__paragraph {
+    width: 56%;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: 10%;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  &__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-top: 47px;
+    margin-left: auto;
+    margin-right: 10%;
+
+    &-top {
+      font-size: 30px;
+      font-weight: 520;
+    }
+
+    &-center {
+      font-size: 16px;
+      margin: 35px 0;
+      text-align: center;
+    }
+
+    &-bottom {
+      font-size: 16px;
+    }
+  }
+}
